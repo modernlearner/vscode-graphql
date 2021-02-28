@@ -539,10 +539,10 @@
       "match": "\\s*\\b(Int|Float|String|Boolean|ID)\\b(?:\\s*(!))?",
       "captures": {
         "1": {
-          "name": "support.type.builtin.graphql"
+          "name": "storage.type.primitive.graphql"
         },
         "2": {
-          "name": "keyword.operator.nulltype.graphql"
+          "name": "keyword.operator.logical.graphql"
         }
       }
     },
