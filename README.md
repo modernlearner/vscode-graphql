@@ -1,14 +1,12 @@
 # VSCode GraphQL
 
-> **Note:** The primary maintainer @acao is on hiatus until December 2020
-
 GraphQL extension VSCode built with the aim to tightly integrate the GraphQL Ecosystem with VSCode for an awesome developer experience.
 
 > 💡 **Note:** This extension no longer supports `.prisma` files. If you are using this extension with GraphQL 1, please rename your datamodel from `datamodel.prisma` to `datamodel.graphql` and this extension will pick that up.
 
 ## Features
 
-Lots of new improvements happening! We now have a [`CHANGELOG.md`](https://github.com/graphql/vscode-graphql/blob/master/CHANGELOG.md#change-log)
+Lots of new improvements happening! We now have a [`CHANGELOG.md`](https://github.com/modernlearner/vscode-graphql/blob/master/CHANGELOG.md#change-log)
 
 ### General features
 
@@ -250,7 +248,7 @@ const myQuery = `
 
 This plugin uses the [GraphQL language server](https://github.com/graphql/graphql-language-service-server)
 
-1.  Clone the repository - https://github.com/graphql/vscode-graphql
+1.  Clone the repository - https://github.com/modernlearner/vscode-graphql
 1.  `npm install`
 1.  Open it in VSCode
 1.  Go to the debugging section and run the launch program "Extension"
@@ -260,13 +258,11 @@ This plugin uses the [GraphQL language server](https://github.com/graphql/graphq
 
 ### Contributing back to this project
 
-This repository is managed by EasyCLA. Project participants must sign the free ([GraphQL Specification Membership agreement](https://preview-spec-membership.graphql.org) before making a contribution. You only need to do this one time, and it can be signed by [individual contributors](http://individual-spec-membership.graphql.org/) or their [employers](http://corporate-spec-membership.graphql.org/).
+Here are some ways to contribute to this project:
 
-To initiate the signature process please open a PR against this repo. The EasyCLA bot will block the merge if we still need a membership agreement from you.
-
-You can find [detailed information here](https://github.com/graphql/graphql-wg/tree/main/membership). If you have issues, please email [operations@graphql.org](mailto:operations@graphql.org).
-
-If your company benefits from GraphQL and you would like to provide essential financial support for the systems and people that power our community, please also consider membership in the [GraphQL Foundation](https://foundation.graphql.org/join).
+1. open a new [Pull Request](https://github.com/modernlearner/vscode-graphql/pulls) to contribute code or documentation
+1. report an issue by [opening a new Issue](https://github.com/modernlearner/vscode-graphql/issues/new)
+1. join the [GraphQL Foundation](https://foundation.graphql.org/join)
 
 ## License
 
